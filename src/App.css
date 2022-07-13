@@ -37,3 +37,19 @@
     transform: translateY(0px);
   }
 }
+
+button {
+  cursor: pointer;
+}
+
+input[type='submit'] {
+  cursor: pointer;
+}
+
+div[disabled]
+{
+  pointer-events: none;
+  opacity: 0.7;
+  color: gray;
+  filter: grayscale();
+}

@@ -1,0 +1,12 @@
+.products_container{
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.products_paginator_container{
+    margin-bottom: 5rem;
+}

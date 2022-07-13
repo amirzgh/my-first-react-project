@@ -1,0 +1,38 @@
+.pagination{
+    margin: 3rem 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.pagination_item{
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0.767);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.current{
+    background-color: #e3146e;
+    color: white;
+}
+
+.select_pages{
+    margin-right: 3rem;
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    transition: .3s border-color;
+}
+
+.pagination_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline ;
+}
